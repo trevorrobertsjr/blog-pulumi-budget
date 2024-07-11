@@ -1,0 +1,7 @@
+name: blog-pulumi-budget
+runtime: go
+description: Automate AWS budget creation
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: ""
